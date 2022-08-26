@@ -1,0 +1,297 @@
+
+    .hero-containerr {
+    background-color: #ffff;
+    height: 140vh;
+    width: 100%;
+    align-items: center;
+    color: #000000;
+  }
+  
+
+  
+  .hero-btns {
+    margin-top: 32px;
+  }
+  
+  .hero-btns .btn {
+    margin: 6px;
+  }
+  
+  
+  .centered_insta_title {
+    position: absolute;
+    top: 385%;
+    left: 40%;
+    display: block;
+    width: 20%;
+    max-width: 50%;
+    height: 20%;
+    max-height: 100%;
+    object-fit: cover;
+    font-size: 30px;
+    color: #000000;
+    text-align: center;
+    letter-spacing: 5px;
+
+  }
+  .centered_insta_desc {
+    position: absolute;
+    top: 380%;
+    left: 40%;
+    display: block;
+    width: 20%;
+    max-width: 50%;
+    height: 20%;
+    max-height: 100%;
+    object-fit: cover;
+    font-size: 15px;
+    color: #9c9696;
+    text-align: center;
+    letter-spacing: 3px;
+
+  }
+
+  .centered_insta_feed {
+    position: absolute;
+    top: 400%;
+    left: 30%;
+    display: block;
+    width: 100%;
+    height: 20%;
+    max-height: 100%;
+    object-fit: cover;
+    font-size: 30px;
+    color: #000000;
+    text-align: center;
+    letter-spacing: 5px;
+    justify-content: center;
+
+  }
+
+
+  
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial;
+  }
+  
+
+  .column {
+    float: left;
+   
+  }
+  
+  
+  .column img {
+    opacity: 0.8; 
+    cursor: pointer; 
+    width: 200px;
+    height: 200px;
+  }
+  
+  .column img:hover {
+    opacity: 1;
+  }
+  
+  
+  .row:after {
+    height: 0px;
+    content: "";
+    display: table;
+    clear: both;
+    
+  }
+  
+  
+  .containerInsta {
+    position: relative;
+    display: none;
+  }
+
+
+  .newsletter_title {
+    position: absolute;
+    top: 475%;
+    left: 40%;
+    display: block;
+    width: 20%;
+    max-width: 50%;
+    height: 20%;
+    max-height: 100%;
+    object-fit: cover;
+    font-size: 30px;
+    color: #000000;
+    text-align: center;
+    letter-spacing: 7px;
+
+  }
+
+  .newsletter_desc {
+    position: absolute;
+    top: 480%;
+    left: 29.8%;
+    display: block;
+    width: 40%;
+    height: 20%;
+    max-height: 100%;
+    object-fit: cover;
+    font-size: 15px;
+    color: #000000;
+    text-align: center;
+    
+
+  }
+
+  .newsletter_gray_desc {
+    position: absolute;
+    top: 470%;
+    left: 40%;
+    display: block;
+    width: 20%;
+    max-width: 50%;
+    height: 20%;
+    max-height: 100%;
+    object-fit: cover;
+    font-size: 15px;
+    color: #9c9696;
+    text-align: center;
+    letter-spacing: 3px;
+
+  }
+  /*Newsletter */
+  .newsletter {
+    background-color: #9C27B0;
+    padding: 100px 15px;
+    color: #fff;
+}
+.newsletter h2, .newsletter p{
+    text-align: center;
+    line-height: 34px;
+}
+.newsletter-box {
+    margin: 20px auto;
+    display: table;
+}
+.newsletter-box i {
+    background: #f7f7f7;
+    width: 60px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+    color: #9c27b0;
+    border-right: 1px solid #ddd;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height: 42px;
+}
+.newsletter .newsletter-box button {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: #9c27b0;
+    color: #fff;
+    padding: 0 15px;
+    font-size: 14px;
+    cursor: pointer;
+    border: 2px solid #fff;
+    border-left: 0px;
+    height: 42px;
+    margin-top: 5px;
+}
+.emailbox{
+    border: 1px;
+    outline: none;
+    border-style: solid;
+}
+.emailbox {
+    width: 0px;
+    height: 42px;
+    
+    font-size: 16px;
+}
+.newsletter-box:hover > .emailbox, .emailbox:focus{
+    width: 280px;
+    padding: 0 10px;
+}
+
+/**/
+
+.form-positioning {
+  position: absolute;
+    top: 490%;
+    left: 30%;
+}
+.btn-send{
+  width: 3.2%;
+  height: 20%;
+  background-color: transparent;
+  border: none;
+
+}
+.footer-subscription {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  margin-bottom: 24px;
+  padding: 24px;
+  color: rgb(0, 0, 0);
+  
+}
+
+
+.footer-subscription-heading {
+  margin-bottom: 24px;
+  font-size: 24px;
+}
+
+.footer-subscription-text {
+  margin-bottom: 24px;
+  font-size: 20px;
+}
+
+.footer-input {
+  padding: 8px 20px;
+  margin-right: 10px;
+  outline: none;
+  border: none;
+  width: 500px;
+  font-size: 18px;
+  margin-bottom: 16px;
+  border: 1px solid rgb(0, 0, 0);
+}
+  
+  
+  @media screen and (max-width: 960px) {
+    .hero-container > h1 {
+      font-size: 70px;
+      margin-top: -150px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .hero-container > h1 {
+      font-size: 50px;
+      margin-top: -100px;
+    }
+  
+    .hero-container > p {
+      font-size: 30px;
+    }
+  
+    .btn-mobile {
+      display: block;
+      text-decoration: none;
+    }
+  
+    .btn {
+      width: 100%;
+    }
+  }
+  
